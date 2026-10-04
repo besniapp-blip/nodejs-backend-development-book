@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Official author page of Yasin Besni, author of Node.js Backend Development: A Practical Guide to Building Production-Ready APIs."
+  />
+  <title>Yasin Besni — Author</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b1020;
+      --panel: #11182a;
+      --panel-2: #182238;
+      --text: #f5f7fb;
+      --muted: #b7c0d1;
+      --accent: #65d46e;
+      --border: #2a3550;
+      --link: #8bd5ff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(101, 212, 110, 0.12), transparent 30rem),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--link);
+    }
+
+    .wrap {
+      width: min(980px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 72px 0 36px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 12px;
+      color: var(--accent);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.4rem, 7vw, 5rem);
+      line-height: 1;
+    }
+
+    .lead {
+      max-width: 760px;
+      margin: 22px 0 0;
+      color: var(--muted);
+      font-size: clamp(1.05rem, 2vw, 1.3rem);
+    }
+
+    main {
+      display: grid;
+      gap: 24px;
+      padding-bottom: 64px;
+    }
+
+    .card {
+      background: linear-gradient(180deg, var(--panel), var(--panel-2));
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 16px 42px rgba(0, 0, 0, 0.22);
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 1.4rem;
+    }
+
+    .book-title {
+      margin: 0 0 10px;
+      font-size: clamp(1.45rem, 3vw, 2rem);
+      line-height: 1.25;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 11px 16px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: #0d1526;
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .button.primary {
+      background: var(--accent);
+      color: #07110a;
+      border-color: var(--accent);
+    }
+
+    .contact {
+      display: grid;
+      gap: 8px;
+    }
+
+    .label {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 24px 0 40px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Yasin Besni",
+    "url": "https://besniapp-blip.github.io/nodejs-backend-development-book/",
+    "email": "mailto:yasinbesni@gmail.com",
+    "sameAs": [
+      "https://github.com/besniapp-blip",
+      "https://dev.to/besniapp"
+    ],
+    "author": {
+      "@type": "Book",
+      "name": "Node.js Backend Development: A Practical Guide to Building Production-Ready APIs",
+      "url": "https://www.amazon.com/dp/B0HL1NWT4B"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <span class="eyebrow">Official Author Page</span>
+      <h1>Yasin Besni</h1>
+      <p class="lead">
+        Full-stack developer and author focused on practical backend development with
+        Node.js, Express, MongoDB, REST APIs, and maintainable application structure.
+      </p>
+    </header>
+
+    <main>
+      <section class="card" aria-labelledby="book-heading">
+        <h2 id="book-heading">Book</h2>
+        <p class="book-title">
+          <strong>Node.js Backend Development: A Practical Guide to Building Production-Ready APIs</strong>
+        </p>
+        <p class="muted">
+          A practical, step-by-step guide to backend development with Node.js, Express,
+          MongoDB, Mongoose, middleware, error handling, routing, and API structure.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="https://www.amazon.com/dp/B0HL1NWT4B" rel="noopener noreferrer">
+            View on Amazon
+          </a>
+          <a class="button" href="https://github.com/besniapp-blip/nodejs-backend-development-book" rel="noopener noreferrer">
+            Companion Code on GitHub
+          </a>
+        </div>
+      </section>
+
+      <section class="card" aria-labelledby="about-heading">
+        <h2 id="about-heading">About</h2>
+        <p>
+          I write practical technical material for developers who want to understand
+          how backend concepts fit together in real applications. My work emphasizes
+          clear explanations, runnable examples, and architecture that grows with the
+          needs of a project instead of adding complexity too early.
+        </p>
+        <p class="muted">
+          Technical articles and companion examples are also published through DEV Community
+          and GitHub.
+        </p>
+        <div class="actions">
+          <a class="button" href="https://dev.to/besniapp" rel="noopener noreferrer">DEV Community</a>
+          <a class="button" href="https://github.com/besniapp-blip" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </section>
+
+      <section class="card contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Official Author Contact</h2>
+        <span class="label">Official author email</span>
+        <a href="mailto:yasinbesni@gmail.com">yasinbesni@gmail.com</a>
+      </section>
+    </main>
+
+    <footer>
+      © 2026 Yasin Besni. Official author website.
+    </footer>
+  </div>
+</body>
+</html>
