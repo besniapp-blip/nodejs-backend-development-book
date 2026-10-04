@@ -40,7 +40,7 @@ The examples in this repository are companion material. The full explanations, r
 
 ## Articles
 
-Technical articles that expand on selected topics will be added here as they are published.
+- [5 Common Mistakes Beginners Make When Building an Express API](https://dev.to/besniapp/5-common-mistakes-beginners-make-when-building-an-express-api-41ac)
 
 ## Author
 
