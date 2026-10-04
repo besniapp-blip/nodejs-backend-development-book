@@ -7,7 +7,8 @@ This repository contains selected runnable examples, practical exercises, and su
 > **Want the complete step-by-step guide?**  
 > The book explains the reasoning behind these examples and connects them into a structured backend learning path.
 >
-> **Read the book on Amazon:** https://www.amazon.com/dp/B0HL1NWT4B
+> **Buy the book:**  
+> [Amazon](https://www.amazon.com/dp/B0HL1NWT4B) · [Google Play Books](https://play.google.com/store/books/details?id=ZdAOEgAAQBAJ)
 
 ## Who This Is For
 
@@ -65,6 +66,8 @@ The repository is intentionally practical: the examples are small enough to unde
 It is designed for readers who want more than isolated snippets and prefer a structured progression from backend fundamentals toward production-ready API design.
 
 **Amazon:** https://www.amazon.com/dp/B0HL1NWT4B
+
+**Google Play Books:** https://play.google.com/store/books/details?id=ZdAOEgAAQBAJ
 
 **Official author page:** https://besniapp.github.io/nodejs-backend-development-book/
 
