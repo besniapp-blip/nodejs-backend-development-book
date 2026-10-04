@@ -80,3 +80,4 @@ Full-stack developer and author focused on practical backend development with No
 
 - Author page: https://besniapp.github.io/nodejs-backend-development-book/
 - DEV Community: https://dev.to/besniapp
+- Hashnode: https://besniapp.hashnode.dev/
