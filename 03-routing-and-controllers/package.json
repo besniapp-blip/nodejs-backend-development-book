@@ -1,0 +1,17 @@
+{
+  "name": "routing-and-controllers-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express routing and controllers companion example for Node.js Backend Development by Yasin Besni",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
