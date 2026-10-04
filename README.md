@@ -70,7 +70,8 @@ It is designed for readers who want more than isolated snippets and prefer a str
 
 ## Articles
 
-- [5 Common Mistakes Beginners Make When Building an Express API](https://dev.to/besniapp/5-common-mistakes-beginners-make-when-building-an-express-api-41ac)
+- DEV Community: [5 Common Mistakes Beginners Make When Building an Express API](https://dev.to/besniapp/5-common-mistakes-beginners-make-when-building-an-express-api-41ac)
+- Hashnode: [5 Common Mistakes Beginners Make When Building an Express API](https://besniapp.hashnode.dev/5-common-mistakes-beginners-make-when-building-an-express-api)
 
 ## Author
 
